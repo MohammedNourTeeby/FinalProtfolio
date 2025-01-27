@@ -22,14 +22,14 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setNotification({ type: "success", message: "تم إرسال الرسالة بنجاح!" });
+          setNotification({ type: "success", message: "Send a massage succesful" });
           e.target.reset(); // إعادة تعيين الحقول بعد الإرسال
         },
         (error) => {
           console.error(error.text);
           setNotification({
             type: "error",
-            message: "حدث خطأ أثناء إرسال الرسالة. يرجى المحاولة مرة أخرى.",
+            message: "Error !! , Please Try again !",
           });
         }
       );

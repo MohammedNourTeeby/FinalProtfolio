@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import scriin from "../../img/scriin.png";
+import booklist from "../../img/booklist.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
@@ -25,6 +26,9 @@ const Portfolio = () => {
       >
         <SwiperSlide><a href="https://e-commerce-web-gamma-nine.vercel.app/">
           <img src={scriin} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide><a href="https://mern-stuck-hv7z.vercel.app/">
+          <img src={booklist} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
           <img src={Ecommerce} alt="" />
